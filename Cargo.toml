@@ -1,0 +1,9 @@
+[package]
+name = "sqlx_hardcoded_bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15.7"
+sqlx = { version = "0.8.0", features = ["postgres", "runtime-tokio"] }
+tokio = { version = "1.39.2", features = ["full"] }
